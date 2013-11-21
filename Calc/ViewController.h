@@ -9,12 +9,33 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController{
-
-
-    
-    __weak IBOutlet UILabel *ResultLabel;
-    
+    IBOutlet UILabel *ResultLabel;
 }
-- (IBAction)One:(id)sender;
+
+- (IBAction)ZeroButton:(id)sender;
+- (IBAction)OneButton:(id)sender;
+- (IBAction)TwoButton:(id)sender;
+- (IBAction)ThreeButton:(id)sender;
+- (IBAction)FourButton:(id)sender;
+- (IBAction)FiveButton:(id)sender;
+- (IBAction)SixButton:(id)sender;
+- (IBAction)SevenButton:(id)sender;
+- (IBAction)EightButton:(id)sender;
+- (IBAction)NineButton:(id)sender;
+- (IBAction)AddButton:(id)sender;
+- (IBAction)SubtractButton:(id)sender;
+- (IBAction)MultiplyButton:(id)sender;
+- (IBAction)DevideButton:(id)sender;
+- (IBAction)EqualButton:(id)sender;
+- (IBAction)ClearButton:(id)sender;
+- (IBAction)DeleteButton:(id)sender;
+- (IBAction)PlusAndMinusButton:(id)sender;
+- (IBAction)PointButton:(id)sender;
+
+
+
+
+
+
 
 @end

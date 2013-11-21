@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
@@ -26,7 +27,64 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)One:(id)sender {
 
+
+- (IBAction)ZeroButton:(id)sender {
+}
+
+- (IBAction)OneButton:(id)sender {
+    ResultLabel.text = @"1";
+}
+
+- (IBAction)TwoButton:(id)sender {
+    ResultLabel.text = @"2";
+}
+
+- (IBAction)ThreeButton:(id)sender {
+}
+
+- (IBAction)FourButton:(id)sender {
+}
+
+- (IBAction)FiveButton:(id)sender {
+}
+
+- (IBAction)SixButton:(id)sender {
+}
+
+- (IBAction)SevenButton:(id)sender {
+}
+
+- (IBAction)EightButton:(id)sender {
+}
+
+- (IBAction)NineButton:(id)sender {
+}
+
+- (IBAction)AddButton:(id)sender {
+}
+
+- (IBAction)SubtractButton:(id)sender {
+}
+
+- (IBAction)MultiplyButton:(id)sender {
+}
+
+- (IBAction)DevideButton:(id)sender {
+}
+
+- (IBAction)EqualButton:(id)sender {
+}
+
+- (IBAction)ClearButton:(id)sender {
+}
+
+- (IBAction)DeleteButton:(id)sender {
+}
+
+- (IBAction)PlusAndMinusButton:(id)sender {
+}
+
+- (IBAction)PointButton:(id)sender {
 }
 @end
