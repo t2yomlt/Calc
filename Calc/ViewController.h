@@ -28,9 +28,6 @@
 - (IBAction)DevideButton:(id)sender;
 - (IBAction)EqualButton:(id)sender;
 - (IBAction)ClearButton:(id)sender;
-- (IBAction)DeleteButton:(id)sender;
-- (IBAction)PlusAndMinusButton:(id)sender;
-- (IBAction)PointButton:(id)sender;
 
 
 
